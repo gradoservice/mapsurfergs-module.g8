@@ -13,7 +13,8 @@ object ApplicationBuild extends Build {
 		javaCore,
 		javaJdbc,
 		javaEbean,
-		"com.gradoservice" %% "geoportal" % "3.4.3"	  
+		"com.gradoservice" %% "geoportal" % "3.4.3",
+		"javax.media" % "jai_core" % "1.1.3" from "http://download.osgeo.org/webdav/geotools/javax/media/jai_core/1.1.3/jai_core-1.1.3.jar"
     )
 
     val main = play.Project(appName, appVersion, appDependencies).settings(
