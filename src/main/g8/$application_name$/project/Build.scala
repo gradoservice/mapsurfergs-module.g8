@@ -25,6 +25,8 @@ object ApplicationBuild extends Build {
 		resolvers += "Open Source Geospatial Foundation Repository" at "http://download.osgeo.org/webdav/geotools/",
 		resolvers += "Gradoservice Maven repository" at "http://git.prochar.ru/maven/",
 		resolvers += "Apache Maven repository" at " http://repo1.maven.org/maven2/"
+		resolvers += "Geosolution Maven repository" at "http://maven.geo-solutions.it/",
+      		resolvers += "julienrf.github.com" at "http://julienrf.github.com/repo/"
     )
 
 }
