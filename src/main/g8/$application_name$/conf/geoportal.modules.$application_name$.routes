@@ -3,3 +3,4 @@
 # ~~~~
 
 # Home page
+GET     /                           controllers.geoportal.modules.$application_name$.Application.index
